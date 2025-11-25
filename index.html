@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Store</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="header__nav">
+
+            <!-- Logo -->
+            <a href="#" class="header__logo">
+                <span class="header__logo-span">NovaStore</span>
+            </a>
+
+            <!-- Menu mobile -->
+            <button class="header__menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="header__mobile-menu">
+
+                <button class="header__menu-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <ul class="header__mobile-list">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                
+            </div>
+
+            <!-- Links -->
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#" class="header__link">Início</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Produtos</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Lançamentos</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Suporte</a>
+                </li>
+            </ul>
+
+            <!-- Call To Action -->
+            <a href="#" class="header__cta">Comprar Agora</a>
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <!-- List item -->
+            <div class="hero__list">
+
+                <!-- Item 1 -->
+                <div class="hero__item hero__item-active">
+
+                    <img src="src/images/apple-watch.png" alt="Apple Watch" class="hero__item-img">
+
+                    <div class="hero__content">
+
+                        <span class="hero__badge">Novo lançamento</span>
+                        <h1 class="hero__title">Apple Watch Serie 10</h1>
+                        <p class="hero__desc">O smartwatch mais avançado que já criamos. Design renovado, mais resistência e sensores ainda mais precisos.</p>
+                        <a href="#" class="hero__cta">Saiba Mais</a>
+
+                    </div>
+                    
+                </div>
+
+                <!-- Item 2 -->
+                <div class="hero__item">
+
+                    <img src="src/images/vision-pro.png" alt="Vision Pro" class="hero__item-img">
+
+                    <div class="hero__content">
+
+                        <span class="hero__badge">Realidade Redefinida</span>
+                        <h1 class="hero__title">Vision Pro</h1>
+                        <p class="hero__desc">Uma nova era de computação espacial. Interaja com apps e conteúdo como nunca antes</p>
+                        <a href="#" class="hero__cta">Saiba Mais</a>
+
+                    </div>
+
+                </div>
+
+                <!-- Item 3 -->
+                <div class="hero__item">
+
+                    <img src="src/images/air-pods.png" alt="Air Pods" class="hero__item-img">
+
+                    <div class="hero__content">
+
+                        <span class="hero__badge">Som Imersivo</span>
+                        <h1 class="hero__title">Air Pods Max</h1>
+                        <p class="hero__desc">Cancelamento de ruído inteligente, conforto aprimorado e qualidade de áudio de nível estúdio.</p>
+                        <a href="#" class="hero__cta">Saiba Mais</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Arrows -->
+            <div class="hero__arrows">
+
+                <button class="hero__arrow hero__arrow--prev">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+
+                <button class="hero__arrow hero__arrow--next">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+
+            </div>
+
+            <!-- Indicators -->
+            <div class="hero__indicators">
+
+                <span class="hero__indicators-numbers">01</span>
+
+                <div class="hero__dots">
+
+                    <span class="hero__dot hero__dot-active"></span>
+                    <span class="hero__dot"></span>
+                    <span class="hero__dot"></span>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Background Circle -->
+        <div class="bg-decor">
+            <div class="bg-decor__circle"></div>
+            <div class="bg-decor__circle"></div>
+            <div class="bg-decor__circle"></div>
+            <div class="bg-decor__circle"></div>
+        </div>
+
+    </main>
+
+    <!-- Script -->
+     <script src="src/javascript/script.js"></script>
+</body>
+</html>
